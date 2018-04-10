@@ -1,0 +1,8 @@
+---
+applications:
+- name: philipsAPIDemoOneZeroValue
+  memory: 780MB
+  instances: 1
+  timeout: 180
+  buildpack: nodejs_buildpack
+  command: node demo1Scheduler.js
